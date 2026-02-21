@@ -2,6 +2,13 @@ import { BulletType } from "../ui/bulletType";
 
 const lessons: BulletType[] = [
     {
+        link: "https://thebrooklyninstitute.com/items/courses/new-york/extinction-biology-biodiversity-and-the-biosphere/",
+        title: "Extinction: Biology, Biodiversity, and the Biosphere", 
+        date: "Spring 2026",
+        coauthors: null,
+        publication: null,
+    },
+    {
         link: "https://thebrooklyninstitute.com/items/courses/new-york/bioengineering-science-design-and-domination/",
         title: "Bioengineering: from Terraforming to Designer Babies",
         date: "Fall 2024",
@@ -38,7 +45,7 @@ export default function Teaching() {
                 <a href={lesson.link} target="_blank">
                     <u>{lesson.title}</u>
                 </a>
-                . <i>{lesson.publication}</i>, {lesson.date}.
+                . {lesson.date}.
             </li>
         );
     };

@@ -2,48 +2,6 @@ import { BulletType } from "../ui/bulletType";
 
 const publicWritings: BulletType[] = [
     {
-        link: "https://www.youtube.com/watch?v=sQdhpo9WFOg",
-        title: "The People's Uprising in Bangladesh (English)",
-        publication: "Center For Political Education",
-        date: "August 2024",
-        coauthors: null,
-    },
-    {
-        link: "https://thebrooklyninstitute.com/podcasts/podcast-for-social-research-episode-56-virology-a-reading-conversation-and-celebration-with-joseph-osmundson/",
-        title: "Episode 56: Virology - A Reading, Conversation and Celebration with Joseph Osmundson",
-        publication: "Podcast for Social Research (BISR)",
-        date: "October 2022",
-        coauthors: null,
-    },
-    {
-        link: "https://www.terrain.news/p/nafis-hasan-on-constraints-building",
-        title: "On Constraints, Building Power and the Cancer-Industrial Complex",
-        publication: "Terrain",
-        date: "June 2022",
-        coauthors: null,
-    },
-    {
-        link: "https://www.youtube.com/watch?v=tf3Hsla5bwU",
-        title: "Indigenous Resistance in a World On Fire",
-        publication: "Democratic Socialists of America",
-        date: "December 2020",
-        coauthors: null,
-    },
-    {
-        link: "https://www.youtube.com/watch?v=0As2sYwYrkQ",
-        title: "Science for the People",
-        publication: "The Dig",
-        date: "May 2020",
-        coauthors: null,
-    },
-    {
-        link: "https://sites.tufts.edu/insight/2017/02/09/humans-of-sackler-nafis-hasan-i-refused-determinism/",
-        title: '"I Refused Determinism"',
-        publication: "Tufts Insight",
-        date: "February 2017",
-        coauthors: null,
-    },
-    {
         link: "https://magazine.scienceforthepeople.org/lewontin-special-issue/biology-at-another-crossroads/",
         title: "Biology at Another Crossroads",
         publication: "Science for the People",

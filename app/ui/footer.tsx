@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-            <div className="h-36 w-full bg-linear-to-b from-white via-neutral-800 via-50% to-neutral-800 flex flex-col justify-center">
+            <div className="h-42 w-full mt-10 bg-linear-to-b from-white via-taupe-800 via-50% to-taupe-800 flex flex-col justify-center">
                 <div
                     id="contact"
                     className="flex flex-row justify-center items-center gap-5"
@@ -27,7 +27,7 @@ export default function Footer() {
                         />
                     </a>
                 </div>
-                <div className="flex flex-row justify-center font-mono text-gray-500 m-5">
+                <div className="flex flex-row justify-center font-mono text-taupe-400 m-5">
                     Website by Derya Meral.
                 </div>
         </div>

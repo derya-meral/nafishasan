@@ -21,7 +21,7 @@ export default function Home() {
                         Washington-Baltimore News Guild Local 32035. I am also
                         an Associate Faculty at the{" "}
                         <a
-                            className="text-red-500"
+                            className="text-[#AA1616] underline"
                             href="https://thebrooklyninstitute.com/"
                             target="_blank"
                         >
@@ -29,7 +29,7 @@ export default function Home() {
                         </a>{" "}
                         (BISR), and author of{" "}
                         <a
-                            className="text-red-500"
+                            className="text-[#AA1616] underline"
                             href="metastasis.html#book"
                             target="_blank"
                         >
@@ -60,76 +60,79 @@ export default function Home() {
                         Lafayette College.
                     </p>
                 </div>
-                <a
-                    className="text-red-500 m-5"
-                    href="metastasis.html"
-                    id="book_cover_link"
-                >
-                    <Image
-                        alt=""
-                        id="bkcvr"
-                        src="/book_cover_FC.jpg"
-                        className="rounded-xl"
-                        width={3000}
-                        height={6000}
-                    />
-                </a>
-                <p className="text-lg">
-                    My current research interests focus on the intersection of
-                    biomedical sciences, science policy, history of science and
-                    scientific research under capitalism; I am a fervent
-                    advocate of the dialectical approach to understanding
-                    biological phenomena and the natural world at large. These
-                    themes appear in my BISR courses and my writings in{" "}
-                    <i>Jacobin</i>,<i>Science for the People</i> among other
-                    outlets, and my forthcoming book.
-                    <br />
-                    <br />I was born in Bangladesh and moved to the United
-                    States in 2007 to pursue higher education, but my roots
-                    continue to compel me to delve into my culture and history.
-                    My writings on Bangladesh&apos;s politics have appeared in{" "}
-                    <i>Le Monde Diplomatique</i>, <i>Red Pepper</i>,{" "}
-                    <i>Jamhoor</i> and more.
-                    <br />
-                    <br />I belong to the editorial collectives at{" "}
+                <div>
                     <a
-                        className="text-red-500"
-                        href="https://magazine.scienceforthepeople.org"
-                        target="_blank"
+                        className="m-5 flex flex-row justify-center sm:flex-none sm:float-left rounded-xl"
+                        href="metastasis.html"
+                        id="book_cover_link"
                     >
-                        <i>Science for the People</i>
+                        <Image
+                            alt=""
+                            id="bkcvr"
+                            src="/book_cover_FC.jpg"
+                            className="rounded-xl sm:w-64"
+                            width={1000}
+                            height={2000}
+                        />
                     </a>
-                    , a radical science magazine, and{" "}
-                    <a
-                        className="text-red-500"
-                        href="https://www.jamhoor.org/"
-                        target="_blank"
-                    >
-                        <i>Jamhoor</i>
-                    </a>
-                    , a left media platform focusing on South Asia and its
-                    diasporas. I am a proud member of the{" "}
-                    <a
-                        className="text-red-500"
-                        href="https://www.dsausa.org/"
-                        target="_blank"
-                    >
-                        Democratic Socialists of America
-                    </a>
-                    , the largest socialist organization in the US, where I have
-                    worked on energy democracy campaigns, electoral campaigns
-                    and political education.
-                    <br />
-                    <br />
-                    During the height of the COVID-19 pandemic, I helped
-                    establish the Jamaica Plain/Roxbury Mutual Fund in Boston,
-                    MA, and fundraised and delivered groceries. I was also part
-                    of the #FreeTheVaccine movement that seeked to remove
-                    intellectual property barriers on the COVID-19 vaccine to
-                    make them accessible worldwide.
-                    <br />
-                    <br />
-                </p>
+                    <p className="text-lg">
+                        My current research interests focus on the intersection
+                        of biomedical sciences, science policy, history of
+                        science and scientific research under capitalism; I am a
+                        fervent advocate of the dialectical approach to
+                        understanding biological phenomena and the natural world
+                        at large. These themes appear in my BISR courses and my
+                        writings in <i>Jacobin</i>,{" "}
+                        <i>Science for the People</i> among other outlets, and
+                        my forthcoming book.
+                        <br />
+                        <br />I was born in Bangladesh and moved to the United
+                        States in 2007 to pursue higher education, but my roots
+                        continue to compel me to delve into my culture and
+                        history. My writings on Bangladesh&apos;s politics have
+                        appeared in <i>Le Monde Diplomatique</i>,{" "}
+                        <i>Red Pepper</i>, <i>Jamhoor</i> and more.
+                        <br />
+                        <br />I belong to the editorial collectives at{" "}
+                        <a
+                            className="text-[#AA1616] underline"
+                            href="https://magazine.scienceforthepeople.org"
+                            target="_blank"
+                        >
+                            <i>Science for the People</i>
+                        </a>
+                        , a radical science magazine, and{" "}
+                        <a
+                            className="text-[#AA1616] underline"
+                            href="https://www.jamhoor.org/"
+                            target="_blank"
+                        >
+                            <i>Jamhoor</i>
+                        </a>
+                        , a left media platform focusing on South Asia and its
+                        diasporas. I am a proud member of the{" "}
+                        <a
+                            className="text-[#AA1616] underline"
+                            href="https://www.dsausa.org/"
+                            target="_blank"
+                        >
+                            Democratic Socialists of America
+                        </a>
+                        , the largest socialist organization in the US, where I
+                        have worked on energy democracy campaigns, electoral
+                        campaigns and political education.
+                        <br />
+                        <br />
+                        During the height of the COVID-19 pandemic, I helped
+                        establish the Jamaica Plain/Roxbury Mutual Fund in
+                        Boston, MA, and fundraised and delivered groceries. I
+                        was also part of the #FreeTheVaccine movement that
+                        seeked to remove intellectual property barriers on the
+                        COVID-19 vaccine to make them accessible worldwide.
+                        <br />
+                        <br />
+                    </p>
+                </div>
             </div>
         </div>
     );

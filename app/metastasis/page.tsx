@@ -94,8 +94,8 @@ export default function Metastasis() {
                     social and historical disease, and one that our unequal and
                     predatory social systems leave us ill-equipped to overcome.”
                     —<b>Gabriel Winant</b>
-                    , author of The Next Shift: The Fall of Industry and the
-                    Rise of Health Care in Rust Belt America
+                    , author of <i>The Next Shift: The Fall of Industry and the
+                    Rise of Health Care in Rust Belt America</i>
                     <br />
                     <br />
                     “Why do so many things intended to heal in fact kill? With
@@ -108,9 +108,9 @@ export default function Metastasis() {
                     to gain a visceral understanding of the real possibility of
                     remission for us all—tomorrow, if not today.” —
                     <b>Sophie Lewis</b>
-                    , author of Abolish the Family: A Manifesto for Care and
-                    Liberation and Enemy Feminisms: TERFs, Policewomen, and
-                    Girlbosses Against Liberation
+                    , author of <i>Abolish the Family: A Manifesto for Care</i> and {" "}
+                    <i>Liberation and Enemy Feminisms: TERFs, Policewomen, and
+                    Girlbosses Against Liberation</i>
                     <br />
                     <br />
                     “Through an unbiased historical and sociological analysis,

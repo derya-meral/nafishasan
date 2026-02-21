@@ -16,10 +16,31 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Nafis Hasan",
-    description: "Labor organizer, writer, scientist, and educator exploring the intersections of health, science, and politics, with a focus on healthcare, social justice, and radical approaches to knowledge and care.",
+    description:
+        "Labor organizer, writer, scientist, and educator exploring the intersections of health, science, and politics, with a focus on healthcare, social justice, and radical approaches to knowledge and care.",
     keywords: [
-        "Nafis", "Hasan", "author", "Philly", "Philadelphia", "Cancer", "Cancer Industrial Complex"
+        "Nafis",
+        "Hasan",
+        "author",
+        "Philly",
+        "Philadelphia",
+        "Cancer",
+        "Cancer Industrial Complex",
     ],
+    openGraph: {
+        title: "Nafis Hasan",
+        description:
+            "Labor organizer, writer, scientist, and educator exploring the intersections of health, science, and politics, with a focus on healthcare, social justice, and radical approaches to knowledge and care.",
+        images: "https://nafishasan.com/_next/image?url=%2FNH-photo-300x300.jpg",
+        url: "https://nafishasan.com",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Nafis Hasan",
+        description: "Labor organizer, writer, scientist, and educator exploring the intersections of health, science, and politics, with a focus on healthcare, social justice, and radical approaches to knowledge and care.",
+        images: "https://nafishasan.com/_next/image?url=%2Fbook_cover_FC.jpg",
+    }
 };
 
 export default function RootLayout({
@@ -33,9 +54,9 @@ export default function RootLayout({
                 className={`${geistSans.variable} ${geistMono.variable} antialiased w-full flex justify-center overflow-y-scroll`}
             >
                 <main className="w-full bg-white flex flex-col items-center justify-between min-h-screen">
-                        <Header />
-                        {children}
-                        <Footer />
+                    <Header />
+                    {children}
+                    <Footer />
                 </main>
             </body>
         </html>

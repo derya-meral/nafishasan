@@ -1,4 +1,4 @@
-import { Bars3Icon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
 export default function Header() {
@@ -14,10 +14,19 @@ export default function Header() {
                         id="menu-toggle"
                         className="peer hidden"
                     />
-                    <label htmlFor="menu-toggle">
-                        <Bars3Icon className="size-8 sm:size-10 text-white" />
+                    <label
+                        htmlFor="menu-toggle"
+                        className="peer-checked:hidden block"
+                    >
+                        <Bars3Icon className="size-9 text-white rounded-md border-[1px] border-slate-600 self-center pl-1 pr-1 lg:hidden bg-slate-950" />
                     </label>
-                    <div className="hidden peer-checked:flex peer-checked:flex-col peer-checked:gap-3 absolute right-0 w-56 mt-1 border border-gray-500 rounded-md p-5 bg-white text-right text-2xl font-mono text-black">
+                    <label
+                        htmlFor="menu-toggle"
+                        className="peer-checked:block hidden"
+                    >
+                        <XMarkIcon className="size-9 text-white rounded-md border-[1px] border-slate-600 self-center pl-1 pr-1 lg:hidden bg-slate-950" />
+                    </label>
+                    <div className="hidden peer-checked:flex peer-checked:flex-col peer-checked:gap-3 absolute right-0 w-56 mt-1 border border-gray-500 rounded-xl p-5 bg-white text-right text-2xl font-mono text-black">
                         <Link href="/">About</Link>
                         <Link href="/metastasis">Metastasis</Link>
                         <Link href="/writing">Writing</Link>

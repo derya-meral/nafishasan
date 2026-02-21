@@ -13,7 +13,7 @@ export default function Home() {
                         src="/NH-photo-300x300.jpg"
                         width={300}
                         height={300}
-                        className="rounded-full self-center sm:float-right sm:ml-10 sm:mb-10 mr-5"
+                        className="rounded-full self-center sm:float-right sm:ml-10 sm:mb-10 mr-5 ml-5"
                     />
                     <p id="bio_para">
                         I am a labor organizer based in Philadelphia, PA,

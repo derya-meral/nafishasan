@@ -5,10 +5,10 @@ export default function Header() {
     return (
         <div className="w-full h-42 bg-linear-to-b from-taupe-800 via-white via-95% to-white flex flex-row justify-center">
             <div className="w-full max-w-200 flex flex-row justify-between items-center ml-5 mr-5 text-xl sm:text-2xl mb-8">
-                <span className="mt-1 text-white font-mono">
+                <span className="text-white font-mono self-center">
                     <Link href={"/"}>Nafis Hasan, Ph.D.</Link>
                 </span>
-                <div className="group relative">
+                <div className="group relative self-center">
                     <input
                         type="checkbox"
                         id="menu-toggle"

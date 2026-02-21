@@ -51,7 +51,7 @@ export default function Teaching() {
     };
 
     return (
-        <div className="max-w-200 text-black grow ml-5 mr-5">
+        <div className="max-w-200 text-black grow w-full pl-5 pr-5">
             <h2 className="text-2xl mb-10 font-bold text-black font-mono">
                 Teaching
             </h2>

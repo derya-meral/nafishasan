@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <div className="max-w-200 text-black ml-5 mr-5">
+        <div className="max-w-200 text-black grow w-full pl-5 pr-5">
             <div
                 id="bio"
                 className="self-center flex flex-col items-center gap-5 text-center sm:text-left"

@@ -2,16 +2,15 @@ import Image from "next/image";
 
 export default function Metastasis() {
     return (
-        <div className="max-w-200 text-black">
-            {" "}
-            <div id="book" className="flex flex-col gap-5 items-center m-5">
-                <h2
+        <div className="max-w-200 text-black grow w-full pl-5 pr-5">
+            <div id="book" className="flex flex-col gap-5 items-center">
+                <h1
                     className="text-2xl mb-10 font-bold text-black font-mono"
                     id="book_title"
                 >
                     Metastasis: The Rise of The Cancer-Industrial Complex and
                     The Horizons of Care
-                </h2>
+                </h1>
                 <Image
                     alt=""
                     src="/book_cover_FC.jpg"

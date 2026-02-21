@@ -2,6 +2,13 @@ import { BulletType } from "../ui/bulletType";
 
 const publicWritings: BulletType[] = [
     {
+        link: "https://progressive.org/latest/the-end-of-the-endless-frontier-hasan-20250313/",
+        title: "The End of the Endless Frontier",
+        publication: "The Progressive",
+        date: "March 13, 2025",
+        coauthors: null,
+    },
+    {
         link: "https://magazine.scienceforthepeople.org/lewontin-special-issue/biology-at-another-crossroads/",
         title: "Biology at Another Crossroads",
         publication: "Science for the People",
@@ -38,7 +45,6 @@ const publicWritings: BulletType[] = [
     },
     {
         link: "https://forgeorganizing.org/article/energy-democracy-campaigns-building-green-new-deal-ground",
-
         title: "Energy Democracy Campaigns: Building the Green New Deal from the Ground Up",
         coauthors: "Liz Kantor and Aaron Eisenberg",
         publication: "The Forge",

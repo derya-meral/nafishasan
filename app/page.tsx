@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -28,16 +29,16 @@ export default function Home() {
                             Brooklyn Institute for Social Research
                         </a>{" "}
                         (BISR), and author of{" "}
-                        <a
+                        <Link
                             className="text-[#AA1616] underline"
-                            href="metastasis.html#book"
+                            href="/metastasis"
                             target="_blank"
                         >
                             <i>
                                 Metastasis: The Rise of the Cancer Industrial
                                 Complex and the Horizons of Care
                             </i>
-                        </a>{" "}
+                        </Link>{" "}
                         (Common Notions Press, February 2025).
                         <br />
                         <br />
@@ -61,9 +62,9 @@ export default function Home() {
                     </p>
                 </div>
                 <div>
-                    <a
+                    <Link
                         className="m-5 flex flex-row justify-center sm:flex-none sm:float-left rounded-xl"
-                        href="metastasis.html"
+                        href="/metastasis"
                         id="book_cover_link"
                     >
                         <Image
@@ -74,7 +75,7 @@ export default function Home() {
                             width={1000}
                             height={2000}
                         />
-                    </a>
+                    </Link>
                     <p className="text-lg">
                         My current research interests focus on the intersection
                         of biomedical sciences, science policy, history of
